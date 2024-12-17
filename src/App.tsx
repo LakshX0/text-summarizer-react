@@ -1,4 +1,5 @@
 import ExpandableText from "./components/ExpandableText";
+import Form from "./components/forms/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         quas blanditiis illo, iure facilis nemo consequatur odit excepturi
         doloribus perferendis quia dolore.
       </ExpandableText>
+      <Form />
     </>
   );
 }
